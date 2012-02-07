@@ -6,6 +6,10 @@
 
 class Exchangerator {
     // DB vars
+    // These shouldn't be in here at all, but I'm leaving them here for now
+    // to make it easy to test, and so the WMF folk can test against my
+    // DB if they want to.  Account should be locked down.
+
     private $dbstr = 'mysql:host=serve.mammon.org;dbname=cake13series';
     private $dbun = 'cake13un';
     private $dbpw = 'cake13pw';
